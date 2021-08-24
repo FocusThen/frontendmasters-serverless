@@ -1,8 +1,8 @@
-const movies = reuqire("../data/movies.json")
+const movies = require('../data/movies.json')
 
 exports.handler = async () => {
-    return {
-        statusCode:200,
-        body: JSON.stringify(movies)
-    }
+  return {
+    statusCode: 200,
+    body: JSON.stringify(movies),
+  }
 }
